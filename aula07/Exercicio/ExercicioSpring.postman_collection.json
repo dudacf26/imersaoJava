@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "c85f5710-6c13-488e-ae7b-7100dd230a7d",
+		"name": "ExercicioSpring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/produtosGET",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtosGET"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"id\": 2,\n        \"valor\": 20,\n        \"nome\": \"Trakinas\"\n }\n   "
+				},
+				"url": {
+					"raw": "localhost:8080/produtosPOST",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtosPOST"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n    {\n        \"valor\": 10,\n        \"nome\": \"Cerveja skol ESTOU ALTERANDO\"\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/produtosPUT/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtosPUT",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/produtosDelete/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"produtosDelete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

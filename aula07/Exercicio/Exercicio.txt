@@ -1,0 +1,18 @@
+Exercícos sobre Spring Boot:
+
+0 - Implementar/Criar uma aplicação Spring Boot com gradle
+
+1 - Escrever uma wrapper class com nome Produto com os seguintes atributos:
+ - id
+ - nome
+ - valor
+
+ 2 - Construir 4 endpoints internos GET/PUT/POST/DELETE para a realização de um CRUD para a classe Produto
+ 
+ 3- Salvar as requisições realizadas de teste assim como a aplicação e subir no portal EAD para futuras análises 
+ do professor.
+
+ PLUSSSSS -> realizar a construção desta aplicação com a técnica de TDD
+
+
+-->  "Acredite em si próprio e chegará um dia em que os outros não terão outra escolha senão acreditar com você." <--
