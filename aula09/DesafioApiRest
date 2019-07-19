@@ -1,0 +1,33 @@
+Exercicio de desafio de API REST:
+
+Construir uma API REST com Springboot, SpringData e Swagger para persistir os dados no banco de dados.
+
+[ ] - Implementar um classe Estudante com os seguintes atributos:
+    - Nome
+    - Matricula
+    - Idade
+    - Turma
+    - Codigo
+
+[ ] - Implementar uma classe Matéria
+    - Codigo
+    - Nome
+
+[ ] - Implementar a documentação da API
+
+[ ] - Realizar a construção de uma Colection no Postman para armazenar as requisições
+
+[ ] - Implementar uma carga de dados iniciais 
+
+
+Sugestão de arquitetura de projeto:
+
+java
+    └── src
+        ├── application
+        │   ├── configuration
+        │   └── controller
+        ├── dominio
+        │   └── model
+        └── infra
+            └── repository
